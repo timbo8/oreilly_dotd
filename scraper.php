@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 
 $html = scraperWiki::scrape("http://oreilly.com");
 print $html . "\n";
